@@ -2,9 +2,9 @@
 {
     using System;
 
-    public class Variance
+    public class General
     {
-        public static double simple_variance(double[] values)
+        public double simple_variance(double[] values)
         {
             double total = 0;
             double totaledSquared = 0;
