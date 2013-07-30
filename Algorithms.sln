@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Access", "Access\Access.csproj", "{33F0C215-6B09-4179-84B8-7F6B37388115}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutureValue", "FutureValue\FutureValue.csproj", "{B0F93786-F129-4AE0-BC4A-8A0AA04B07AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{33F0C215-6B09-4179-84B8-7F6B37388115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33F0C215-6B09-4179-84B8-7F6B37388115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33F0C215-6B09-4179-84B8-7F6B37388115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F93786-F129-4AE0-BC4A-8A0AA04B07AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F93786-F129-4AE0-BC4A-8A0AA04B07AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F93786-F129-4AE0-BC4A-8A0AA04B07AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F93786-F129-4AE0-BC4A-8A0AA04B07AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
