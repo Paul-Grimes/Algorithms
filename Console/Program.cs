@@ -31,8 +31,14 @@ namespace MyConsole
             Console.WriteLine("Standard Deviation:");
             Console.WriteLine(controller.StandardDeviation(myArray));
 
-            Console.ReadLine();
+            double presentValue = 20.00;
+            double rate = 0.10;
+            int time = 5;
+            //Future Value
+            Console.WriteLine("Future Value: Simple Interest");
+            Console.WriteLine(controller.FutureValueSimpleInterest(presentValue, rate, time));
 
+            Console.ReadLine();
         }
     }
 }

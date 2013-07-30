@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FutureValue
 {
-    class General
+    public class General
     {
         /// <summary>
         /// Return the future value.

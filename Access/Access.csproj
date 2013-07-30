@@ -43,6 +43,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FutureValue\FutureValue.csproj">
+      <Project>{b0f93786-f129-4ae0-bc4a-8a0aa04b07ae}</Project>
+      <Name>FutureValue</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StandardDeviation\StandardDeviation.csproj">
       <Project>{651ef054-024c-4f16-8bb3-b8739e27bc97}</Project>
       <Name>StandardDeviation</Name>

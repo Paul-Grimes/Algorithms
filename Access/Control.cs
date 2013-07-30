@@ -16,5 +16,11 @@
             var algorithm = new StandardDeviation.General();
             return algorithm.SimpleStandardDeviation(values);
         }
+
+        public double FutureValueSimpleInterest(double presentValue, double rate, int time)
+        {
+            var algorithm = new FutureValue.General();
+            return algorithm.SimpleInterest(presentValue, rate, time);
+        }
     }
 }
