@@ -22,5 +22,11 @@
             var algorithm = new FutureValue.General();
             return algorithm.SimpleInterest(presentValue, rate, time);
         }
+
+        public double FutureValueCompoundInterest(double presentValue, double rate, int time)
+        {
+            var algorithm = new FutureValue.General();
+            return algorithm.CompoundInterest(presentValue, rate, time);
+        }
     }
 }
