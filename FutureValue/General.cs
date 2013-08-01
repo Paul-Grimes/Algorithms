@@ -27,5 +27,10 @@ namespace FutureValue
         }
 
 
+        public double CompoundInterest(double presentValue, double rate, int time)
+        {
+            return presentValue * Math.Pow((1 + rate), time);
+        }
+
     }
 }
