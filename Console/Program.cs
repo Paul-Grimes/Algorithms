@@ -38,6 +38,9 @@ namespace MyConsole
             Console.WriteLine("Future Value: Simple Interest");
             Console.WriteLine(controller.FutureValueSimpleInterest(presentValue, rate, time));
 
+            Console.WriteLine("Future Value: Compound Interest");
+            Console.WriteLine(controller.FutureValueCompoundInterest(presentValue, rate, time));
+
             Console.ReadLine();
         }
     }
