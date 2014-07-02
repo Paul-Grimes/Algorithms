@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variance", "Variance\Variance.csproj", "{0F25435B-89AA-40F9-BFD9-E5AC8C096EBE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardDeviation", "StandardDeviation\StandardDeviation.csproj", "{651EF054-024C-4F16-8BB3-B8739E27BC97}"
@@ -10,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Access", "Access\Access.csproj", "{33F0C215-6B09-4179-84B8-7F6B37388115}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutureValue", "FutureValue\FutureValue.csproj", "{B0F93786-F129-4AE0-BC4A-8A0AA04B07AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "knapsack", "knapsack\knapsack.csproj", "{EBF47D29-01D1-4167-8528-F1239E31A554}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{B0F93786-F129-4AE0-BC4A-8A0AA04B07AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0F93786-F129-4AE0-BC4A-8A0AA04B07AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0F93786-F129-4AE0-BC4A-8A0AA04B07AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF47D29-01D1-4167-8528-F1239E31A554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF47D29-01D1-4167-8528-F1239E31A554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF47D29-01D1-4167-8528-F1239E31A554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF47D29-01D1-4167-8528-F1239E31A554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
